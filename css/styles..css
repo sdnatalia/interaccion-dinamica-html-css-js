@@ -1,0 +1,283 @@
+body{
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif !important;
+    line-height: 1.5;
+    overflow-x: hidden;
+    height: 100%;
+}
+.principal{
+    display: block;
+    max-width: 95%;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.h4{
+    position: static;
+    color: #1C6EA4;
+    font-weight: bold;
+}
+.main{
+  margin: 1rem 20rem 1rem 20rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; 
+  column-gap: 3;
+}
+.container-border{
+    display: grid;
+    align-items: center;
+    padding: 15px;
+    grid-template-columns: auto 5fr auto;
+}
+.container-center{
+    padding: 5px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);  
+}
+
+.radious{
+    grid-column: 3 / 4;
+    border: 3px solid rgb(73, 120, 180);
+    background-color: #eee;
+}
+textarea{
+    text-align: left;
+    outline: none !important;
+    font-weight: bold;
+    font-size: 14px;
+    background: transparent;
+    border: none;
+    overflow: hidden;
+}
+.border-div{
+    display: flex;
+    flex-direction: column; 
+    column-gap: 3;
+    align-items: center;
+    gap: 5px;
+}
+.tb-iz{
+    border: 1px solid #444444;
+    border-radius: 40px 40px 0px 40px;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    padding: 13px;
+    background-color: #D0E4F5;
+    width: 140px;
+}
+.tb-der{
+    border: 1px solid #444444;
+    border-radius: 40px 40px 40px 0px;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    background-color: #D0E4F5;
+    height: 70px;
+    width: 140px;
+}
+.db-iz{
+    border: 1px solid #444444;
+    border-radius: 40px 0px 40px 40px;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    padding: 13px;
+    background-color: #D0E4F5;
+    width: 140px;
+}
+.db-der{
+    border: 1px solid #444444;
+    border-radius: 0px 40px 40px 40px;
+    border-spacing: 0.5rem;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    background-color: #D0E4F5;
+    height: 70px;
+    width: 140px;
+}
+button, input {
+    overflow: visible;
+    
+}
+button, input, optgroup, select, textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+
+.inputNumber{
+    margin-bottom: 15px;
+    width: 60px;    
+    font-size: 18px;
+    border: 2px solid #1c6EA4;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 10px;
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 20px;
+    color: #1C6EA4;
+    text-align: center;
+    
+}
+label{
+    cursor: pointer;
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  #slideBorder{
+      display: grid;
+      grid-template-rows: auto, auto;
+  }
+ 
+  .slider {
+    -webkit-appearance: none;
+    width: 140px;
+    height: .5em;
+    border-radius: 3px;  
+    background: #ffffff;
+    border-color: #1c6EA4;
+    border-style: solid;
+    outline: none;
+    cursor: pointer;
+    opacity: 0.7;
+    -webkit-transition: .3s;
+    transition: opacity .2s;
+  }
+
+  .slider2 {
+    -webkit-appearance: none;
+    width: 140px;
+    height: .5em;
+    border-radius: 3px;  
+    background: #ffffff;
+    border-color: rgb(21, 110, 192);
+    border-style: solid;
+    outline: none;
+    opacity: 0.7;
+    cursor: pointer;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+
+  }
+
+  input#borderRadiusAllTheSame {
+    width: 20px !important;
+    margin: 0 !important;
+    font-size: 30px !important;
+}
+.generator8 input {
+    border: 2px solid #1c6EA4;
+    border-radius: 4px;
+    padding: 2px;
+    font-size: 20px;
+    color: #1190e4;
+    text-align: center;
+}
+.sharpCornerBL {
+    border-radius: 30px 50px 30px 0;
+}
+.verticalAlignTop {
+    vertical-align: top;
+}
+    
+    .sharpCornerTR {
+        border-radius: 30px 0 30px 50px;
+    }   
+    .sharpCornerTL {
+        border-radius: 0 30px 50px 30px;
+    }
+
+    .settingRow {
+        clear: both;
+        padding: 5px 0 0 0;
+    }
+    .settingRowLabel {
+        float: left;
+        width: 24%;
+        padding: 5px 1%;
+        text-align: right;
+    }
+    .settingRowInput {
+        float: right;
+        width: 70%;
+        padding: 9px 2% 5px;
+    }
+    .resetToThis {
+        display: inline-block;
+        cursor: pointer;
+        padding: 0 5px;
+        background: #1C6EA4;
+        color: #FFF;
+        border-radius: 5px;
+        box-shadow: inset 0 2px 5px 1px #1C6EA4, 1px 2px 5px 1px #999;
+        margin: 0 0 0 10px;
+    }
+    .settingRowInput {
+        float: right;
+        width: 70%;
+        padding: 9px 2% 5px;
+    }
+   
+   #borderStyles > a {
+        width: 50px;
+    }
+    #borderStyles > a {
+        display: inline-block;
+        border: 4px solid #1C6EA4;
+        margin: 1px;
+        cursor: pointer;
+        overflow: hidden;
+        color: #333;
+        padding: 0 8px;
+        line-height: 22px;
+        height: 25px;
+        text-align: center;
+        width: 60px;
+        background-color: #eee;
+    }
+    #backgroundRepeatSelect > a:hover, a.selected, #backgroundAttachmentSelect > a:hover, #borderStyles > a:hover, #borderOrOutline > a:hover, #whichBorder > a:hover {
+        background-color: #D0E4F5 !important;
+    }
+     h1,  h2,  h3,  h4,  a,  a:active,  a:hover,  a:visited {
+        color: #1C6EA4;
+        font-weight: bold;
+    }
+ 
+    #borderColor {
+        width: 100px;
+        margin-right: 20px;
+        border: 3px solid  #1C6EA4;
+        box-shadow: #73aace46 unset;
+    }
+    .wrapBorderOpacity {
+        margin-right: 20px;
+    }
+    .wrapBackgroundOpacity, .wrapBorderOpacity {
+        width: 160px;
+        display: inline-block;
+    }
+
+    .clearfix {
+        display: block;
+    }
+    #whichBorder > a {
+        display: inline-block;
+        margin: 5px 5px 1px 0;
+        cursor: pointer;
+        overflow: hidden;
+        color: #333;
+        padding: 0 8px;
+        line-height: 22px;
+        height: 25px;
+        text-align: center;
+        width: 60px;
+        background-color: #eee;
+    }
